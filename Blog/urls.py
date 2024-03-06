@@ -8,5 +8,5 @@ urlpatterns = [
     path("contact",views.contact,name='contact'),
     path("blog",views.blog,name="blog"),
     path('projects',views.projects,name='projects'),
-    re_path(r'^tracking/', include('tracking.urls')),
+    # re_path(r'^tracking/', include('tracking.urls')),
 ]
